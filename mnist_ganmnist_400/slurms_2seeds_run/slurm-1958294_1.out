@@ -1,0 +1,51 @@
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:23<07:27, 23.53s/it] 10%|█         | 2/20 [00:30<05:36, 18.68s/it] 15%|█▌        | 3/20 [00:38<04:19, 15.26s/it] 20%|██        | 4/20 [00:45<03:27, 12.94s/it] 25%|██▌       | 5/20 [00:53<02:48, 11.25s/it] 30%|███       | 6/20 [01:00<02:20, 10.07s/it] 35%|███▌      | 7/20 [01:07<02:00,  9.24s/it] 40%|████      | 8/20 [01:14<01:44,  8.67s/it] 45%|████▌     | 9/20 [01:22<01:31,  8.33s/it] 50%|█████     | 10/20 [01:29<01:20,  8.01s/it] 55%|█████▌    | 11/20 [01:37<01:10,  7.87s/it] 60%|██████    | 12/20 [01:44<01:01,  7.69s/it] 65%|██████▌   | 13/20 [01:51<00:53,  7.60s/it] 70%|███████   | 14/20 [01:59<00:45,  7.53s/it] 75%|███████▌  | 15/20 [02:06<00:37,  7.53s/it] 80%|████████  | 16/20 [02:14<00:29,  7.46s/it] 85%|████████▌ | 17/20 [02:21<00:22,  7.41s/it] 90%|█████████ | 18/20 [02:28<00:14,  7.39s/it] 95%|█████████▌| 19/20 [02:36<00:07,  7.43s/it]100%|██████████| 20/20 [02:43<00:00,  7.39s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:07<02:18,  7.29s/it] 10%|█         | 2/20 [00:14<02:11,  7.32s/it] 15%|█▌        | 3/20 [00:22<02:05,  7.38s/it] 20%|██        | 4/20 [00:29<01:57,  7.36s/it] 25%|██▌       | 5/20 [00:36<01:50,  7.34s/it] 30%|███       | 6/20 [00:44<01:43,  7.40s/it] 35%|███▌      | 7/20 [00:51<01:35,  7.38s/it] 40%|████      | 8/20 [00:59<01:28,  7.38s/it] 45%|████▌     | 9/20 [01:06<01:21,  7.39s/it] 50%|█████     | 10/20 [01:14<01:14,  7.44s/it] 55%|█████▌    | 11/20 [01:21<01:06,  7.39s/it] 60%|██████    | 12/20 [01:28<00:58,  7.36s/it] 65%|██████▌   | 13/20 [01:35<00:51,  7.37s/it] 70%|███████   | 14/20 [01:43<00:44,  7.36s/it] 75%|███████▌  | 15/20 [01:50<00:37,  7.41s/it] 80%|████████  | 16/20 [01:58<00:29,  7.43s/it] 85%|████████▌ | 17/20 [02:05<00:22,  7.44s/it] 90%|█████████ | 18/20 [02:13<00:14,  7.44s/it] 95%|█████████▌| 19/20 [02:20<00:07,  7.41s/it]100%|██████████| 20/20 [02:28<00:00,  7.44s/it]
+Arguments:  Namespace(S_P_data='MNIST', S_Q_data='GANMNIST', bandwidths=[1.0, None, None, None], batch_size=100, exp_type='accuracy', filter_sizes=[3, 3, 3, 3], g_activs=['cos', 'relu', 'relu', 'relu'], init_stdvs=[None, 1.0, 1.0, 1.0], kernel_type='ntk', method='fixed_ntk', n_permutes=100, n_samples=400, n_seeds=2, n_tests=20, poolings=['st3', 'st3', 'st2', 'st2'], run_id=0, save_dir="/scratch/hdd001/home/sheng/scntk_icml/MNIST_jan_30th/S_P_MNIST/S_Q_GANMNIST/n2/n_tests20/n_permutes100/n_samples400/widths[300, 300, 300, 300]/g_activs['cos', 'relu', 'relu', 'relu']/bandwidths[1.0, None, None, None]/init_stdvs[None, 1.0, 1.0, 1.0]/filter_sizes[3, 3, 3, 3]/poolings['st3', 'st3', 'st2', 'st2']/kernel_type_ntk/run_id0", top_dir='/scratch/hdd001/home/sheng/scntk_icml', use_components=None, widths=[300, 300, 300, 300], writer_record=0)
+
+
+test 0 chosen hypothesis 0
+test 1 chosen hypothesis 0
+test 2 chosen hypothesis 0
+test 3 chosen hypothesis 0
+test 4 chosen hypothesis 0
+test 5 chosen hypothesis 0
+test 6 chosen hypothesis 0
+test 7 chosen hypothesis 0
+test 8 chosen hypothesis 1
+test 9 chosen hypothesis 0
+test 10 chosen hypothesis 1
+test 11 chosen hypothesis 0
+test 12 chosen hypothesis 0
+test 13 chosen hypothesis 0
+test 14 chosen hypothesis 1
+test 15 chosen hypothesis 0
+test 16 chosen hypothesis 0
+test 17 chosen hypothesis 0
+test 18 chosen hypothesis 1
+test 19 chosen hypothesis 0
+[0.2 0. ]
+ground truth: P!=Q
+successful reject accuracy (accept h1 rate)= 0.2
+test 0 chosen hypothesis 0
+test 1 chosen hypothesis 0
+test 2 chosen hypothesis 1
+test 3 chosen hypothesis 0
+test 4 chosen hypothesis 0
+test 5 chosen hypothesis 1
+test 6 chosen hypothesis 0
+test 7 chosen hypothesis 0
+test 8 chosen hypothesis 0
+test 9 chosen hypothesis 1
+test 10 chosen hypothesis 0
+test 11 chosen hypothesis 0
+test 12 chosen hypothesis 0
+test 13 chosen hypothesis 0
+test 14 chosen hypothesis 1
+test 15 chosen hypothesis 0
+test 16 chosen hypothesis 0
+test 17 chosen hypothesis 0
+test 18 chosen hypothesis 0
+test 19 chosen hypothesis 1
+[0.2  0.25]
+ground truth: P!=Q
+successful reject accuracy (accept h1 rate)= 0.25

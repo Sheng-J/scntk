@@ -1,0 +1,50 @@
+Arguments:  Namespace(S_P_data='CIFAR10', S_Q_data='CIFAR10_1', bandwidths=[1.0, None, None], batch_size=100, exp_type='accuracy', filter_sizes=[3, 3, 2], g_activs=['cos', 'relu', 'relu'], init_stdvs=[None, 1.0, 1.0], kernel_type='ntk', method='fixed_ntk', n_permutes=100, n_samples=1000, n_seeds=2, n_tests=20, poolings=['st3', 'st3', 'st3'], run_id=0, save_dir="/scratch/hdd001/home/sheng/scntk_icml/MNIST_jan_30th/S_P_CIFAR10/S_Q_CIFAR10_1/n2/n_tests20/n_permutes100/n_samples1000/widths[300, 300, 300]/g_activs['cos', 'relu', 'relu']/bandwidths[1.0, None, None]/init_stdvs[None, 1.0, 1.0]/filter_sizes[3, 3, 2]/poolings['st3', 'st3', 'st3']/kernel_type_ntk/run_id0", top_dir='/scratch/hdd001/home/sheng/scntk_icml', use_components=None, widths=[300, 300, 300], writer_record=0)
+Files already downloaded and verified
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:39<12:23, 39.13s/it] 10%|█         | 2/20 [01:02<10:21, 34.50s/it] 15%|█▌        | 3/20 [01:26<08:51, 31.26s/it] 20%|██        | 4/20 [01:50<07:43, 28.99s/it] 25%|██▌       | 5/20 [02:14<06:51, 27.45s/it] 30%|███       | 6/20 [02:37<06:08, 26.34s/it] 35%|███▌      | 7/20 [03:02<05:35, 25.80s/it] 40%|████      | 8/20 [03:25<05:01, 25.15s/it] 45%|████▌     | 9/20 [03:49<04:31, 24.71s/it] 50%|█████     | 10/20 [04:13<04:04, 24.43s/it] 55%|█████▌    | 11/20 [04:37<03:38, 24.28s/it] 60%|██████    | 12/20 [05:01<03:12, 24.11s/it] 65%|██████▌   | 13/20 [05:24<02:47, 23.96s/it] 70%|███████   | 14/20 [05:48<02:24, 24.05s/it] 75%|███████▌  | 15/20 [06:12<01:59, 23.97s/it] 80%|████████  | 16/20 [06:36<01:36, 24.03s/it] 85%|████████▌ | 17/20 [07:00<01:11, 23.90s/it] 90%|█████████ | 18/20 [07:26<00:48, 24.38s/it] 95%|█████████▌| 19/20 [07:49<00:24, 24.19s/it]100%|██████████| 20/20 [08:13<00:00, 24.02s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:24<07:37, 24.09s/it] 10%|█         | 2/20 [00:48<07:15, 24.22s/it] 15%|█▌        | 3/20 [01:12<06:48, 24.04s/it] 20%|██        | 4/20 [01:36<06:27, 24.24s/it] 25%|██▌       | 5/20 [02:01<06:04, 24.29s/it] 30%|███       | 6/20 [02:25<05:37, 24.11s/it] 35%|███▌      | 7/20 [02:48<05:11, 23.94s/it] 40%|████      | 8/20 [03:12<04:48, 24.03s/it] 45%|████▌     | 9/20 [03:36<04:23, 23.92s/it] 50%|█████     | 10/20 [04:01<04:03, 24.35s/it] 55%|█████▌    | 11/20 [04:26<03:39, 24.41s/it] 60%|██████    | 12/20 [04:50<03:13, 24.22s/it] 65%|██████▌   | 13/20 [05:14<02:50, 24.36s/it] 70%|███████   | 14/20 [05:38<02:24, 24.14s/it] 75%|███████▌  | 15/20 [06:03<02:01, 24.27s/it] 80%|████████  | 16/20 [06:27<01:36, 24.19s/it] 85%|████████▌ | 17/20 [06:51<01:12, 24.29s/it] 90%|█████████ | 18/20 [07:15<00:48, 24.16s/it] 95%|█████████▌| 19/20 [07:39<00:24, 24.00s/it]100%|██████████| 20/20 [08:03<00:00, 24.12s/it]
+test 0 chosen hypothesis 0
+test 1 chosen hypothesis 0
+test 2 chosen hypothesis 0
+test 3 chosen hypothesis 0
+test 4 chosen hypothesis 0
+test 5 chosen hypothesis 0
+test 6 chosen hypothesis 0
+test 7 chosen hypothesis 0
+test 8 chosen hypothesis 0
+test 9 chosen hypothesis 0
+test 10 chosen hypothesis 0
+test 11 chosen hypothesis 0
+test 12 chosen hypothesis 0
+test 13 chosen hypothesis 0
+test 14 chosen hypothesis 0
+test 15 chosen hypothesis 0
+test 16 chosen hypothesis 0
+test 17 chosen hypothesis 0
+test 18 chosen hypothesis 0
+test 19 chosen hypothesis 0
+[0. 0.]
+ground truth: P!=Q
+successful reject accuracy (accept h1 rate)= 0.0
+test 0 chosen hypothesis 0
+test 1 chosen hypothesis 0
+test 2 chosen hypothesis 0
+test 3 chosen hypothesis 0
+test 4 chosen hypothesis 0
+test 5 chosen hypothesis 0
+test 6 chosen hypothesis 0
+test 7 chosen hypothesis 0
+test 8 chosen hypothesis 0
+test 9 chosen hypothesis 0
+test 10 chosen hypothesis 0
+test 11 chosen hypothesis 0
+test 12 chosen hypothesis 0
+test 13 chosen hypothesis 0
+test 14 chosen hypothesis 0
+test 15 chosen hypothesis 0
+test 16 chosen hypothesis 0
+test 17 chosen hypothesis 0
+test 18 chosen hypothesis 0
+test 19 chosen hypothesis 0
+[0. 0.]
+ground truth: P!=Q
+successful reject accuracy (accept h1 rate)= 0.0

@@ -1,0 +1,50 @@
+Arguments:  Namespace(S_P_data='CIFAR10', S_Q_data='CIFAR10_1', bandwidths=[1.0, None, None], batch_size=100, exp_type='accuracy', filter_sizes=[3, 3, 3], g_activs=['cos', 'relu', 'relu'], init_stdvs=[None, 1.0, 1.0], kernel_type='ntk', method='fixed_ntk', n_permutes=100, n_samples=1000, n_seeds=2, n_tests=20, poolings=['st2', 'st2', 'st2'], run_id=0, save_dir="/scratch/hdd001/home/sheng/scntk_icml/MNIST_jan_30th/S_P_CIFAR10/S_Q_CIFAR10_1/n2/n_tests20/n_permutes100/n_samples1000/widths[300, 300, 300]/g_activs['cos', 'relu', 'relu']/bandwidths[1.0, None, None]/init_stdvs[None, 1.0, 1.0]/filter_sizes[3, 3, 3]/poolings['st2', 'st2', 'st2']/kernel_type_ntk/run_id0", top_dir='/scratch/hdd001/home/sheng/scntk_icml', use_components=None, widths=[300, 300, 300], writer_record=0)
+Files already downloaded and verified
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:51<16:17, 51.46s/it] 10%|█         | 2/20 [01:29<14:13, 47.43s/it] 15%|█▌        | 3/20 [02:06<12:34, 44.37s/it] 20%|██        | 4/20 [02:42<11:10, 41.93s/it] 25%|██▌       | 5/20 [03:19<10:06, 40.45s/it] 30%|███       | 6/20 [03:55<09:06, 39.04s/it] 35%|███▌      | 7/20 [04:31<08:13, 37.94s/it] 40%|████      | 8/20 [05:09<07:35, 37.96s/it] 45%|████▌     | 9/20 [05:45<06:53, 37.56s/it] 50%|█████     | 10/20 [06:21<06:10, 37.03s/it] 55%|█████▌    | 11/20 [06:59<05:35, 37.32s/it] 60%|██████    | 12/20 [07:34<04:54, 36.76s/it] 65%|██████▌   | 13/20 [08:10<04:14, 36.41s/it] 70%|███████   | 14/20 [08:46<03:38, 36.40s/it] 75%|███████▌  | 15/20 [09:23<03:02, 36.44s/it] 80%|████████  | 16/20 [10:01<02:27, 36.92s/it] 85%|████████▌ | 17/20 [10:39<01:51, 37.25s/it] 90%|█████████ | 18/20 [11:17<01:14, 37.48s/it] 95%|█████████▌| 19/20 [11:55<00:37, 37.68s/it]100%|██████████| 20/20 [12:31<00:00, 37.03s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:37<11:52, 37.51s/it] 10%|█         | 2/20 [01:14<11:12, 37.34s/it] 15%|█▌        | 3/20 [01:49<10:25, 36.79s/it] 20%|██        | 4/20 [02:25<09:42, 36.40s/it] 25%|██▌       | 5/20 [03:03<09:13, 36.89s/it] 30%|███       | 6/20 [03:40<08:35, 36.82s/it] 35%|███▌      | 7/20 [04:16<07:56, 36.67s/it] 40%|████      | 8/20 [04:54<07:25, 37.09s/it] 45%|████▌     | 9/20 [05:32<06:51, 37.37s/it] 50%|█████     | 10/20 [06:08<06:09, 36.98s/it] 55%|█████▌    | 11/20 [06:46<05:35, 37.30s/it] 60%|██████    | 12/20 [07:23<04:56, 37.01s/it] 65%|██████▌   | 13/20 [07:59<04:17, 36.75s/it] 70%|███████   | 14/20 [08:34<03:37, 36.31s/it] 75%|███████▌  | 15/20 [09:11<03:01, 36.38s/it] 80%|████████  | 16/20 [09:46<02:24, 36.07s/it] 85%|████████▌ | 17/20 [10:21<01:47, 35.84s/it] 90%|█████████ | 18/20 [10:56<01:11, 35.68s/it] 95%|█████████▌| 19/20 [11:32<00:35, 35.62s/it]100%|██████████| 20/20 [12:07<00:00, 35.56s/it]
+test 0 chosen hypothesis 0
+test 1 chosen hypothesis 1
+test 2 chosen hypothesis 0
+test 3 chosen hypothesis 0
+test 4 chosen hypothesis 0
+test 5 chosen hypothesis 0
+test 6 chosen hypothesis 0
+test 7 chosen hypothesis 1
+test 8 chosen hypothesis 0
+test 9 chosen hypothesis 0
+test 10 chosen hypothesis 1
+test 11 chosen hypothesis 0
+test 12 chosen hypothesis 0
+test 13 chosen hypothesis 0
+test 14 chosen hypothesis 0
+test 15 chosen hypothesis 1
+test 16 chosen hypothesis 1
+test 17 chosen hypothesis 1
+test 18 chosen hypothesis 1
+test 19 chosen hypothesis 0
+[0.35 0.  ]
+ground truth: P!=Q
+successful reject accuracy (accept h1 rate)= 0.35
+test 0 chosen hypothesis 0
+test 1 chosen hypothesis 0
+test 2 chosen hypothesis 0
+test 3 chosen hypothesis 0
+test 4 chosen hypothesis 1
+test 5 chosen hypothesis 0
+test 6 chosen hypothesis 0
+test 7 chosen hypothesis 1
+test 8 chosen hypothesis 1
+test 9 chosen hypothesis 0
+test 10 chosen hypothesis 1
+test 11 chosen hypothesis 0
+test 12 chosen hypothesis 0
+test 13 chosen hypothesis 0
+test 14 chosen hypothesis 0
+test 15 chosen hypothesis 0
+test 16 chosen hypothesis 0
+test 17 chosen hypothesis 0
+test 18 chosen hypothesis 0
+test 19 chosen hypothesis 0
+[0.35 0.2 ]
+ground truth: P!=Q
+successful reject accuracy (accept h1 rate)= 0.2

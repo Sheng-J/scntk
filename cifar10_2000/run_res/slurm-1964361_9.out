@@ -1,0 +1,50 @@
+Arguments:  Namespace(S_P_data='CIFAR10', S_Q_data='CIFAR10_1', bandwidths=[1.0, None, None], batch_size=100, exp_type='accuracy', filter_sizes=[3, 3, 3], g_activs=['cos', 'relu', 'relu'], init_stdvs=[None, 1.0, 1.0], kernel_type='ntk', method='fixed_ntk', n_permutes=100, n_samples=2000, n_seeds=2, n_tests=20, poolings=['st3', 'st3', 'st3'], run_id=0, save_dir="/scratch/hdd001/home/sheng/scntk_icml/MNIST_jan_30th/S_P_CIFAR10/S_Q_CIFAR10_1/n2/n_tests20/n_permutes100/n_samples2000/widths[100, 100, 100]/g_activs['cos', 'relu', 'relu']/bandwidths[1.0, None, None]/init_stdvs[None, 1.0, 1.0]/filter_sizes[3, 3, 3]/poolings['st3', 'st3', 'st3']/kernel_type_ntk/run_id0", top_dir='/scratch/hdd001/home/sheng/scntk_icml', use_components=None, widths=[100, 100, 100], writer_record=0)
+Files already downloaded and verified
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:58<18:25, 58.17s/it] 10%|█         | 2/20 [01:38<15:49, 52.77s/it] 15%|█▌        | 3/20 [02:26<14:35, 51.49s/it] 20%|██        | 4/20 [03:15<13:29, 50.61s/it] 25%|██▌       | 5/20 [03:54<11:45, 47.03s/it] 30%|███       | 6/20 [04:42<11:03, 47.41s/it] 35%|███▌      | 7/20 [05:27<10:08, 46.77s/it] 40%|████      | 8/20 [06:05<08:48, 44.07s/it] 45%|████▌     | 9/20 [06:42<07:43, 42.10s/it] 50%|█████     | 10/20 [07:20<06:48, 40.83s/it] 55%|█████▌    | 11/20 [08:04<06:15, 41.74s/it] 60%|██████    | 12/20 [08:45<05:32, 41.52s/it] 65%|██████▌   | 13/20 [09:26<04:48, 41.25s/it] 70%|███████   | 14/20 [10:06<04:05, 40.86s/it] 75%|███████▌  | 15/20 [10:44<03:20, 40.16s/it] 80%|████████  | 16/20 [11:32<02:50, 42.54s/it] 85%|████████▌ | 17/20 [12:21<02:13, 44.34s/it] 90%|█████████ | 18/20 [13:03<01:27, 43.65s/it] 95%|█████████▌| 19/20 [13:43<00:42, 42.63s/it]100%|██████████| 20/20 [14:31<00:00, 44.32s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:46<14:39, 46.30s/it] 10%|█         | 2/20 [01:26<13:19, 44.40s/it] 15%|█▌        | 3/20 [02:14<12:54, 45.57s/it] 20%|██        | 4/20 [03:02<12:22, 46.40s/it] 25%|██▌       | 5/20 [03:41<11:01, 44.07s/it] 30%|███       | 6/20 [04:29<10:34, 45.34s/it] 35%|███▌      | 7/20 [05:15<09:49, 45.33s/it] 40%|████      | 8/20 [05:52<08:36, 43.04s/it] 45%|████▌     | 9/20 [06:30<07:35, 41.43s/it] 50%|█████     | 10/20 [07:08<06:43, 40.37s/it] 55%|█████▌    | 11/20 [07:52<06:12, 41.43s/it] 60%|██████    | 12/20 [08:33<05:30, 41.31s/it] 65%|██████▌   | 13/20 [09:13<04:47, 41.04s/it] 70%|███████   | 14/20 [09:53<04:04, 40.72s/it] 75%|███████▌  | 15/20 [10:32<03:20, 40.04s/it] 80%|████████  | 16/20 [11:20<02:50, 42.52s/it] 85%|████████▌ | 17/20 [12:08<02:12, 44.28s/it] 90%|█████████ | 18/20 [12:50<01:27, 43.62s/it] 95%|█████████▌| 19/20 [13:31<00:42, 42.58s/it]100%|██████████| 20/20 [14:19<00:00, 44.30s/it]
+test 0 chosen hypothesis 0
+test 1 chosen hypothesis 0
+test 2 chosen hypothesis 1
+test 3 chosen hypothesis 1
+test 4 chosen hypothesis 0
+test 5 chosen hypothesis 1
+test 6 chosen hypothesis 0
+test 7 chosen hypothesis 0
+test 8 chosen hypothesis 0
+test 9 chosen hypothesis 0
+test 10 chosen hypothesis 0
+test 11 chosen hypothesis 0
+test 12 chosen hypothesis 0
+test 13 chosen hypothesis 0
+test 14 chosen hypothesis 0
+test 15 chosen hypothesis 1
+test 16 chosen hypothesis 1
+test 17 chosen hypothesis 0
+test 18 chosen hypothesis 0
+test 19 chosen hypothesis 1
+[0.3 0. ]
+ground truth: P!=Q
+successful reject accuracy (accept h1 rate)= 0.3
+test 0 chosen hypothesis 0
+test 1 chosen hypothesis 0
+test 2 chosen hypothesis 1
+test 3 chosen hypothesis 1
+test 4 chosen hypothesis 0
+test 5 chosen hypothesis 1
+test 6 chosen hypothesis 0
+test 7 chosen hypothesis 0
+test 8 chosen hypothesis 0
+test 9 chosen hypothesis 0
+test 10 chosen hypothesis 0
+test 11 chosen hypothesis 0
+test 12 chosen hypothesis 0
+test 13 chosen hypothesis 0
+test 14 chosen hypothesis 0
+test 15 chosen hypothesis 1
+test 16 chosen hypothesis 1
+test 17 chosen hypothesis 0
+test 18 chosen hypothesis 0
+test 19 chosen hypothesis 1
+[0.3 0.3]
+ground truth: P!=Q
+successful reject accuracy (accept h1 rate)= 0.3

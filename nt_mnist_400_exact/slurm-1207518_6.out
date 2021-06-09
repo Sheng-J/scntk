@@ -1,0 +1,289 @@
+/h/sheng/.conda/envs/CENV/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/h/sheng/.conda/envs/CENV/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/h/sheng/.conda/envs/CENV/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/h/sheng/.conda/envs/CENV/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/h/sheng/.conda/envs/CENV/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/h/sheng/.conda/envs/CENV/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+  0%|          | 0/50 [00:00<?, ?it/s]/h/sheng/.conda/envs/CENV/lib/python3.6/site-packages/jax/lax/lax.py:5905: UserWarning: Explicitly requested dtype <class 'jax.numpy.lax_numpy.float64'> requested in astype is not available, and will be truncated to dtype float32. To enable more dtypes, set the jax_enable_x64 configuration option or the JAX_ENABLE_X64 shell environment variable. See https://github.com/google/jax#current-gotchas for more.
+  warnings.warn(msg.format(dtype, fun_name , truncated_dtype))
+/h/sheng/.conda/envs/CENV/lib/python3.6/site-packages/jax/numpy/lax_numpy.py:1621: FutureWarning: jax.numpy reductions won't accept lists and tuples in future versions, only scalars and ndarrays
+  warnings.warn(msg, category=FutureWarning)
+  2%|▏         | 1/50 [00:38<31:08, 38.14s/it]  4%|▍         | 2/50 [00:46<23:27, 29.32s/it]  6%|▌         | 3/50 [00:55<18:12, 23.23s/it]  8%|▊         | 4/50 [01:04<14:31, 18.95s/it] 10%|█         | 5/50 [01:14<12:01, 16.03s/it] 12%|█▏        | 6/50 [01:23<10:11, 13.90s/it] 14%|█▍        | 7/50 [01:31<08:49, 12.31s/it] 16%|█▌        | 8/50 [01:40<07:56, 11.34s/it] 18%|█▊        | 9/50 [01:49<07:15, 10.63s/it] 20%|██        | 10/50 [01:58<06:45, 10.13s/it] 22%|██▏       | 11/50 [02:07<06:20,  9.76s/it] 24%|██▍       | 12/50 [02:16<06:04,  9.60s/it] 26%|██▌       | 13/50 [02:25<05:49,  9.44s/it] 28%|██▊       | 14/50 [02:34<05:36,  9.34s/it] 30%|███       | 15/50 [02:43<05:21,  9.19s/it] 32%|███▏      | 16/50 [02:52<05:10,  9.12s/it] 34%|███▍      | 17/50 [03:01<04:55,  8.96s/it] 36%|███▌      | 18/50 [03:09<04:42,  8.84s/it] 38%|███▊      | 19/50 [03:18<04:36,  8.92s/it] 40%|████      | 20/50 [03:27<04:28,  8.94s/it] 42%|████▏     | 21/50 [03:36<04:17,  8.88s/it] 44%|████▍     | 22/50 [03:45<04:11,  8.98s/it] 46%|████▌     | 23/50 [03:54<04:02,  8.97s/it] 48%|████▊     | 24/50 [04:03<03:53,  8.98s/it] 50%|█████     | 25/50 [04:12<03:44,  8.97s/it] 52%|█████▏    | 26/50 [04:21<03:33,  8.89s/it] 54%|█████▍    | 27/50 [04:30<03:25,  8.92s/it] 56%|█████▌    | 28/50 [04:39<03:16,  8.93s/it] 58%|█████▊    | 29/50 [04:48<03:09,  9.00s/it] 60%|██████    | 30/50 [04:57<02:59,  8.95s/it] 62%|██████▏   | 31/50 [05:06<02:50,  8.99s/it] 64%|██████▍   | 32/50 [05:15<02:41,  8.95s/it] 66%|██████▌   | 33/50 [05:24<02:32,  8.95s/it] 68%|██████▊   | 34/50 [05:33<02:24,  9.01s/it] 70%|███████   | 35/50 [05:42<02:13,  8.90s/it] 72%|███████▏  | 36/50 [05:51<02:04,  8.92s/it] 74%|███████▍  | 37/50 [06:00<01:56,  8.99s/it] 76%|███████▌  | 38/50 [06:09<01:47,  8.94s/it] 78%|███████▊  | 39/50 [06:18<01:38,  8.94s/it] 80%|████████  | 40/50 [06:26<01:28,  8.88s/it] 82%|████████▏ | 41/50 [06:35<01:20,  8.96s/it] 84%|████████▍ | 42/50 [06:44<01:11,  8.95s/it] 86%|████████▌ | 43/50 [06:53<01:02,  8.96s/it] 88%|████████▊ | 44/50 [07:02<00:53,  8.97s/it] 90%|█████████ | 45/50 [07:11<00:44,  8.98s/it] 92%|█████████▏| 46/50 [07:20<00:35,  8.82s/it] 94%|█████████▍| 47/50 [07:29<00:26,  8.84s/it] 96%|█████████▌| 48/50 [07:37<00:17,  8.76s/it] 98%|█████████▊| 49/50 [07:46<00:08,  8.81s/it]100%|██████████| 50/50 [07:55<00:00,  8.83s/it]
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:09<07:29,  9.17s/it]  4%|▍         | 2/50 [00:18<07:19,  9.16s/it]  6%|▌         | 3/50 [00:27<07:06,  9.07s/it]  8%|▊         | 4/50 [00:35<06:53,  9.00s/it] 10%|█         | 5/50 [00:45<06:45,  9.02s/it] 12%|█▏        | 6/50 [00:54<06:36,  9.00s/it] 14%|█▍        | 7/50 [01:02<06:23,  8.93s/it] 16%|█▌        | 8/50 [01:11<06:14,  8.91s/it] 18%|█▊        | 9/50 [01:20<06:02,  8.85s/it] 20%|██        | 10/50 [01:29<05:58,  8.96s/it] 22%|██▏       | 11/50 [01:38<05:48,  8.94s/it] 24%|██▍       | 12/50 [01:46<05:34,  8.80s/it] 26%|██▌       | 13/50 [01:56<05:28,  8.88s/it] 28%|██▊       | 14/50 [02:04<05:20,  8.89s/it] 30%|███       | 15/50 [02:13<05:12,  8.92s/it] 32%|███▏      | 16/50 [02:22<05:03,  8.93s/it] 34%|███▍      | 17/50 [02:31<04:55,  8.94s/it] 36%|███▌      | 18/50 [02:40<04:46,  8.95s/it] 38%|███▊      | 19/50 [02:49<04:37,  8.95s/it] 40%|████      | 20/50 [02:58<04:28,  8.96s/it] 42%|████▏     | 21/50 [03:07<04:19,  8.95s/it] 44%|████▍     | 22/50 [03:16<04:10,  8.94s/it] 46%|████▌     | 23/50 [03:25<03:58,  8.84s/it] 48%|████▊     | 24/50 [03:34<03:51,  8.90s/it] 50%|█████     | 25/50 [03:43<03:43,  8.96s/it] 52%|█████▏    | 26/50 [03:52<03:33,  8.91s/it] 54%|█████▍    | 27/50 [04:01<03:26,  8.99s/it] 56%|█████▌    | 28/50 [04:10<03:17,  8.96s/it] 58%|█████▊    | 29/50 [04:19<03:07,  8.95s/it] 60%|██████    | 30/50 [04:28<02:59,  8.97s/it] 62%|██████▏   | 31/50 [04:36<02:49,  8.91s/it] 64%|██████▍   | 32/50 [04:45<02:39,  8.87s/it] 66%|██████▌   | 33/50 [04:54<02:31,  8.93s/it] 68%|██████▊   | 34/50 [05:03<02:22,  8.89s/it] 70%|███████   | 35/50 [05:12<02:13,  8.90s/it] 72%|███████▏  | 36/50 [05:21<02:04,  8.93s/it] 74%|███████▍  | 37/50 [05:30<01:56,  8.93s/it] 76%|███████▌  | 38/50 [05:39<01:46,  8.89s/it] 78%|███████▊  | 39/50 [05:48<01:38,  8.97s/it] 80%|████████  | 40/50 [05:57<01:29,  8.91s/it] 82%|████████▏ | 41/50 [06:06<01:20,  8.98s/it] 84%|████████▍ | 42/50 [06:15<01:11,  8.97s/it] 86%|████████▌ | 43/50 [06:24<01:02,  8.92s/it] 88%|████████▊ | 44/50 [06:32<00:52,  8.83s/it] 90%|█████████ | 45/50 [06:41<00:44,  8.86s/it] 92%|█████████▏| 46/50 [06:50<00:35,  8.94s/it] 94%|█████████▍| 47/50 [06:59<00:26,  8.92s/it] 96%|█████████▌| 48/50 [07:08<00:17,  8.97s/it] 98%|█████████▊| 49/50 [07:17<00:08,  8.90s/it]100%|██████████| 50/50 [07:26<00:00,  8.93s/it]
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:08<06:51,  8.39s/it]  4%|▍         | 2/50 [00:17<06:51,  8.57s/it]  6%|▌         | 3/50 [00:26<06:48,  8.68s/it]  8%|▊         | 4/50 [00:35<06:45,  8.80s/it] 10%|█         | 5/50 [00:44<06:34,  8.77s/it] 12%|█▏        | 6/50 [00:53<06:29,  8.86s/it] 14%|█▍        | 7/50 [01:01<06:18,  8.81s/it] 16%|█▌        | 8/50 [01:10<06:13,  8.89s/it] 18%|█▊        | 9/50 [01:19<06:05,  8.90s/it] 20%|██        | 10/50 [01:28<05:56,  8.90s/it] 22%|██▏       | 11/50 [01:37<05:50,  8.98s/it] 24%|██▍       | 12/50 [01:47<05:42,  9.00s/it] 26%|██▌       | 13/50 [01:55<05:32,  8.99s/it] 28%|██▊       | 14/50 [02:04<05:23,  8.97s/it] 30%|███       | 15/50 [02:13<05:13,  8.97s/it] 32%|███▏      | 16/50 [02:22<05:03,  8.94s/it] 34%|███▍      | 17/50 [02:31<04:56,  8.98s/it] 36%|███▌      | 18/50 [02:40<04:43,  8.86s/it] 38%|███▊      | 19/50 [02:49<04:36,  8.90s/it] 40%|████      | 20/50 [02:58<04:27,  8.92s/it] 42%|████▏     | 21/50 [03:07<04:19,  8.96s/it] 44%|████▍     | 22/50 [03:16<04:10,  8.94s/it] 46%|████▌     | 23/50 [03:25<04:00,  8.90s/it] 48%|████▊     | 24/50 [03:33<03:50,  8.87s/it] 50%|█████     | 25/50 [03:42<03:39,  8.78s/it] 52%|█████▏    | 26/50 [03:51<03:31,  8.80s/it] 54%|█████▍    | 27/50 [04:00<03:23,  8.85s/it] 56%|█████▌    | 28/50 [04:09<03:15,  8.88s/it] 58%|█████▊    | 29/50 [04:18<03:06,  8.89s/it] 60%|██████    | 30/50 [04:26<02:57,  8.86s/it] 62%|██████▏   | 31/50 [04:35<02:48,  8.87s/it] 64%|██████▍   | 32/50 [04:44<02:39,  8.84s/it] 66%|██████▌   | 33/50 [04:53<02:30,  8.86s/it] 68%|██████▊   | 34/50 [05:02<02:22,  8.89s/it] 70%|███████   | 35/50 [05:11<02:14,  8.95s/it] 72%|███████▏  | 36/50 [05:20<02:05,  8.97s/it] 74%|███████▍  | 37/50 [05:29<01:57,  9.05s/it] 76%|███████▌  | 38/50 [05:38<01:47,  8.93s/it] 78%|███████▊  | 39/50 [05:47<01:37,  8.87s/it] 80%|████████  | 40/50 [05:55<01:28,  8.80s/it] 82%|████████▏ | 41/50 [06:04<01:19,  8.82s/it] 84%|████████▍ | 42/50 [06:13<01:10,  8.84s/it] 86%|████████▌ | 43/50 [06:22<01:01,  8.81s/it] 88%|████████▊ | 44/50 [06:31<00:53,  8.91s/it] 90%|█████████ | 45/50 [06:40<00:44,  8.98s/it] 92%|█████████▏| 46/50 [06:49<00:35,  8.99s/it] 94%|█████████▍| 47/50 [06:58<00:27,  9.02s/it] 96%|█████████▌| 48/50 [07:07<00:17,  8.99s/it] 98%|█████████▊| 49/50 [07:16<00:08,  8.95s/it]100%|██████████| 50/50 [07:25<00:00,  8.90s/it]
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:09<07:26,  9.12s/it]  4%|▍         | 2/50 [00:18<07:15,  9.07s/it]  6%|▌         | 3/50 [00:27<07:04,  9.03s/it]  8%|▊         | 4/50 [00:35<06:51,  8.94s/it] 10%|█         | 5/50 [00:44<06:41,  8.92s/it] 12%|█▏        | 6/50 [00:53<06:31,  8.90s/it] 14%|█▍        | 7/50 [01:02<06:19,  8.82s/it] 16%|█▌        | 8/50 [01:11<06:14,  8.91s/it] 18%|█▊        | 9/50 [01:19<06:01,  8.81s/it] 20%|██        | 10/50 [01:28<05:53,  8.84s/it] 22%|██▏       | 11/50 [01:37<05:49,  8.97s/it] 24%|██▍       | 12/50 [01:46<05:40,  8.97s/it] 26%|██▌       | 13/50 [01:55<05:28,  8.88s/it] 28%|██▊       | 14/50 [02:04<05:18,  8.85s/it] 30%|███       | 15/50 [02:12<05:06,  8.75s/it] 32%|███▏      | 16/50 [02:22<05:01,  8.85s/it] 34%|███▍      | 17/50 [02:30<04:50,  8.82s/it] 36%|███▌      | 18/50 [02:39<04:44,  8.90s/it] 38%|███▊      | 19/50 [02:49<04:38,  8.98s/it] 40%|████      | 20/50 [02:57<04:29,  8.97s/it] 42%|████▏     | 21/50 [03:06<04:18,  8.92s/it] 44%|████▍     | 22/50 [03:15<04:05,  8.76s/it] 46%|████▌     | 23/50 [03:23<03:56,  8.75s/it] 48%|████▊     | 24/50 [03:32<03:48,  8.77s/it] 50%|█████     | 25/50 [03:41<03:41,  8.85s/it] 52%|█████▏    | 26/50 [03:50<03:31,  8.83s/it] 54%|█████▍    | 27/50 [03:59<03:24,  8.90s/it] 56%|█████▌    | 28/50 [04:08<03:16,  8.94s/it] 58%|█████▊    | 29/50 [04:17<03:07,  8.92s/it] 60%|██████    | 30/50 [04:26<02:59,  8.97s/it] 62%|██████▏   | 31/50 [04:35<02:49,  8.92s/it] 64%|██████▍   | 32/50 [04:44<02:41,  8.96s/it] 66%|██████▌   | 33/50 [04:53<02:31,  8.91s/it] 68%|██████▊   | 34/50 [05:02<02:22,  8.92s/it] 70%|███████   | 35/50 [05:11<02:13,  8.93s/it] 72%|███████▏  | 36/50 [05:20<02:05,  8.99s/it] 74%|███████▍  | 37/50 [05:28<01:55,  8.86s/it] 76%|███████▌  | 38/50 [05:37<01:46,  8.85s/it] 78%|███████▊  | 39/50 [05:46<01:38,  8.92s/it] 80%|████████  | 40/50 [05:55<01:29,  8.94s/it] 82%|████████▏ | 41/50 [06:04<01:19,  8.87s/it] 84%|████████▍ | 42/50 [06:13<01:11,  8.94s/it] 86%|████████▌ | 43/50 [06:22<01:01,  8.84s/it] 88%|████████▊ | 44/50 [06:31<00:53,  8.86s/it] 90%|█████████ | 45/50 [06:39<00:44,  8.83s/it] 92%|█████████▏| 46/50 [06:48<00:35,  8.89s/it] 94%|█████████▍| 47/50 [06:57<00:26,  8.96s/it] 96%|█████████▌| 48/50 [07:06<00:17,  8.71s/it] 98%|█████████▊| 49/50 [07:14<00:08,  8.71s/it]100%|██████████| 50/50 [07:23<00:00,  8.76s/it]
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:08<07:19,  8.96s/it]  4%|▍         | 2/50 [00:17<07:06,  8.88s/it]  6%|▌         | 3/50 [00:26<07:00,  8.95s/it]  8%|▊         | 4/50 [00:35<06:52,  8.96s/it] 10%|█         | 5/50 [00:44<06:41,  8.92s/it] 12%|█▏        | 6/50 [00:53<06:33,  8.94s/it] 14%|█▍        | 7/50 [01:02<06:24,  8.94s/it] 16%|█▌        | 8/50 [01:11<06:16,  8.95s/it] 18%|█▊        | 9/50 [01:20<06:09,  9.00s/it] 20%|██        | 10/50 [01:29<05:57,  8.94s/it] 22%|██▏       | 11/50 [01:38<05:49,  8.95s/it] 24%|██▍       | 12/50 [01:47<05:38,  8.90s/it] 26%|██▌       | 13/50 [01:56<05:30,  8.94s/it] 28%|██▊       | 14/50 [02:05<05:22,  8.97s/it] 30%|███       | 15/50 [02:14<05:12,  8.93s/it] 32%|███▏      | 16/50 [02:22<05:01,  8.87s/it] 34%|███▍      | 17/50 [02:31<04:53,  8.90s/it] 36%|███▌      | 18/50 [02:40<04:44,  8.88s/it] 38%|███▊      | 19/50 [02:49<04:36,  8.92s/it] 40%|████      | 20/50 [02:58<04:26,  8.89s/it] 42%|████▏     | 21/50 [03:07<04:15,  8.83s/it] 44%|████▍     | 22/50 [03:15<04:06,  8.79s/it] 46%|████▌     | 23/50 [03:24<03:58,  8.82s/it] 48%|████▊     | 24/50 [03:33<03:50,  8.86s/it] 50%|█████     | 25/50 [03:42<03:42,  8.88s/it] 52%|█████▏    | 26/50 [03:51<03:33,  8.89s/it] 54%|█████▍    | 27/50 [04:00<03:23,  8.84s/it] 56%|█████▌    | 28/50 [04:09<03:14,  8.83s/it] 58%|█████▊    | 29/50 [04:17<03:05,  8.84s/it] 60%|██████    | 30/50 [04:26<02:56,  8.81s/it] 62%|██████▏   | 31/50 [04:35<02:47,  8.82s/it] 64%|██████▍   | 32/50 [04:44<02:39,  8.84s/it] 66%|██████▌   | 33/50 [04:53<02:29,  8.80s/it] 68%|██████▊   | 34/50 [05:02<02:21,  8.86s/it] 70%|███████   | 35/50 [05:10<02:12,  8.81s/it] 72%|███████▏  | 36/50 [05:19<02:04,  8.87s/it] 74%|███████▍  | 37/50 [05:28<01:55,  8.92s/it] 76%|███████▌  | 38/50 [05:37<01:47,  8.96s/it] 78%|███████▊  | 39/50 [05:46<01:37,  8.87s/it] 80%|████████  | 40/50 [05:55<01:28,  8.87s/it] 82%|████████▏ | 41/50 [06:04<01:19,  8.85s/it] 84%|████████▍ | 42/50 [06:13<01:11,  8.90s/it] 86%|████████▌ | 43/50 [06:21<01:01,  8.84s/it] 88%|████████▊ | 44/50 [06:31<00:53,  8.94s/it] 90%|█████████ | 45/50 [06:40<00:44,  8.96s/it] 92%|█████████▏| 46/50 [06:48<00:35,  8.93s/it] 94%|█████████▍| 47/50 [06:57<00:26,  8.91s/it] 96%|█████████▌| 48/50 [07:06<00:17,  8.94s/it] 98%|█████████▊| 49/50 [07:16<00:09,  9.01s/it]100%|██████████| 50/50 [07:25<00:00,  9.04s/it]
+Arguments:  Namespace(S_P_data='MNIST', S_Q_data='GANMNIST', bandwidths=[1.0, None, None], batch_size=100, exp_type='accuracy', filter_sizes=[4, 4, 4], g_activs=['cos', 'relu', 'relu'], init_stdvs=[None, 1.0, 1.0], kernel_type='exact_ntk', method='fixed_ntk', n_permutes=100, n_samples=400, n_seeds=5, n_tests=50, poolings=['st3', 'st3', 'st3'], run_id=0, save_dir="/scratch/hdd001/home/sheng/scntk_icml/MNIST_jan_30th/S_P_MNIST/S_Q_GANMNIST/n5/n_tests50/n_permutes100/n_samples400/widths[400, 300, 300]/g_activs['cos', 'relu', 'relu']/bandwidths[1.0, None, None]/init_stdvs[None, 1.0, 1.0]/filter_sizes[4, 4, 4]/poolings['st3', 'st3', 'st3']/kernel_type_exact_ntk/run_id0", top_dir='/scratch/hdd001/home/sheng/scntk_icml', use_components=None, widths=[400, 300, 300], writer_record=0)
+
+
+test 0 chosen hypothesis 1
+test 1 chosen hypothesis 1
+test 2 chosen hypothesis 1
+test 3 chosen hypothesis 1
+test 4 chosen hypothesis 1
+test 5 chosen hypothesis 0
+test 6 chosen hypothesis 0
+test 7 chosen hypothesis 1
+test 8 chosen hypothesis 1
+test 9 chosen hypothesis 0
+test 10 chosen hypothesis 1
+test 11 chosen hypothesis 1
+test 12 chosen hypothesis 1
+test 13 chosen hypothesis 1
+test 14 chosen hypothesis 1
+test 15 chosen hypothesis 1
+test 16 chosen hypothesis 1
+test 17 chosen hypothesis 1
+test 18 chosen hypothesis 1
+test 19 chosen hypothesis 1
+test 20 chosen hypothesis 0
+test 21 chosen hypothesis 1
+test 22 chosen hypothesis 1
+test 23 chosen hypothesis 1
+test 24 chosen hypothesis 1
+test 25 chosen hypothesis 0
+test 26 chosen hypothesis 1
+test 27 chosen hypothesis 0
+test 28 chosen hypothesis 1
+test 29 chosen hypothesis 1
+test 30 chosen hypothesis 1
+test 31 chosen hypothesis 0
+test 32 chosen hypothesis 1
+test 33 chosen hypothesis 1
+test 34 chosen hypothesis 0
+test 35 chosen hypothesis 1
+test 36 chosen hypothesis 1
+test 37 chosen hypothesis 1
+test 38 chosen hypothesis 1
+test 39 chosen hypothesis 1
+test 40 chosen hypothesis 1
+test 41 chosen hypothesis 1
+test 42 chosen hypothesis 1
+test 43 chosen hypothesis 1
+test 44 chosen hypothesis 1
+test 45 chosen hypothesis 1
+test 46 chosen hypothesis 1
+test 47 chosen hypothesis 0
+test 48 chosen hypothesis 0
+test 49 chosen hypothesis 0
+[0.78 0.   0.   0.   0.  ]
+ground truth: P!=Q
+successful reject accuracy (accept h1 rate)= 0.78
+test 0 chosen hypothesis 0
+test 1 chosen hypothesis 0
+test 2 chosen hypothesis 1
+test 3 chosen hypothesis 1
+test 4 chosen hypothesis 1
+test 5 chosen hypothesis 1
+test 6 chosen hypothesis 1
+test 7 chosen hypothesis 1
+test 8 chosen hypothesis 1
+test 9 chosen hypothesis 1
+test 10 chosen hypothesis 1
+test 11 chosen hypothesis 0
+test 12 chosen hypothesis 1
+test 13 chosen hypothesis 1
+test 14 chosen hypothesis 0
+test 15 chosen hypothesis 1
+test 16 chosen hypothesis 1
+test 17 chosen hypothesis 1
+test 18 chosen hypothesis 1
+test 19 chosen hypothesis 1
+test 20 chosen hypothesis 1
+test 21 chosen hypothesis 1
+test 22 chosen hypothesis 0
+test 23 chosen hypothesis 1
+test 24 chosen hypothesis 1
+test 25 chosen hypothesis 1
+test 26 chosen hypothesis 1
+test 27 chosen hypothesis 1
+test 28 chosen hypothesis 1
+test 29 chosen hypothesis 1
+test 30 chosen hypothesis 1
+test 31 chosen hypothesis 0
+test 32 chosen hypothesis 1
+test 33 chosen hypothesis 1
+test 34 chosen hypothesis 1
+test 35 chosen hypothesis 1
+test 36 chosen hypothesis 1
+test 37 chosen hypothesis 1
+test 38 chosen hypothesis 1
+test 39 chosen hypothesis 1
+test 40 chosen hypothesis 1
+test 41 chosen hypothesis 0
+test 42 chosen hypothesis 0
+test 43 chosen hypothesis 0
+test 44 chosen hypothesis 1
+test 45 chosen hypothesis 1
+test 46 chosen hypothesis 1
+test 47 chosen hypothesis 1
+test 48 chosen hypothesis 1
+test 49 chosen hypothesis 1
+[0.78 0.82 0.   0.   0.  ]
+ground truth: P!=Q
+successful reject accuracy (accept h1 rate)= 0.82
+test 0 chosen hypothesis 1
+test 1 chosen hypothesis 1
+test 2 chosen hypothesis 1
+test 3 chosen hypothesis 1
+test 4 chosen hypothesis 0
+test 5 chosen hypothesis 1
+test 6 chosen hypothesis 1
+test 7 chosen hypothesis 1
+test 8 chosen hypothesis 0
+test 9 chosen hypothesis 0
+test 10 chosen hypothesis 1
+test 11 chosen hypothesis 1
+test 12 chosen hypothesis 1
+test 13 chosen hypothesis 1
+test 14 chosen hypothesis 1
+test 15 chosen hypothesis 1
+test 16 chosen hypothesis 1
+test 17 chosen hypothesis 0
+test 18 chosen hypothesis 1
+test 19 chosen hypothesis 1
+test 20 chosen hypothesis 1
+test 21 chosen hypothesis 1
+test 22 chosen hypothesis 1
+test 23 chosen hypothesis 0
+test 24 chosen hypothesis 1
+test 25 chosen hypothesis 1
+test 26 chosen hypothesis 1
+test 27 chosen hypothesis 1
+test 28 chosen hypothesis 1
+test 29 chosen hypothesis 1
+test 30 chosen hypothesis 0
+test 31 chosen hypothesis 1
+test 32 chosen hypothesis 1
+test 33 chosen hypothesis 1
+test 34 chosen hypothesis 1
+test 35 chosen hypothesis 1
+test 36 chosen hypothesis 1
+test 37 chosen hypothesis 1
+test 38 chosen hypothesis 1
+test 39 chosen hypothesis 1
+test 40 chosen hypothesis 1
+test 41 chosen hypothesis 0
+test 42 chosen hypothesis 0
+test 43 chosen hypothesis 1
+test 44 chosen hypothesis 1
+test 45 chosen hypothesis 1
+test 46 chosen hypothesis 1
+test 47 chosen hypothesis 0
+test 48 chosen hypothesis 1
+test 49 chosen hypothesis 0
+[0.78 0.82 0.8  0.   0.  ]
+ground truth: P!=Q
+successful reject accuracy (accept h1 rate)= 0.8
+test 0 chosen hypothesis 1
+test 1 chosen hypothesis 0
+test 2 chosen hypothesis 1
+test 3 chosen hypothesis 0
+test 4 chosen hypothesis 1
+test 5 chosen hypothesis 1
+test 6 chosen hypothesis 0
+test 7 chosen hypothesis 1
+test 8 chosen hypothesis 1
+test 9 chosen hypothesis 0
+test 10 chosen hypothesis 1
+test 11 chosen hypothesis 1
+test 12 chosen hypothesis 1
+test 13 chosen hypothesis 0
+test 14 chosen hypothesis 0
+test 15 chosen hypothesis 1
+test 16 chosen hypothesis 1
+test 17 chosen hypothesis 0
+test 18 chosen hypothesis 1
+test 19 chosen hypothesis 1
+test 20 chosen hypothesis 1
+test 21 chosen hypothesis 1
+test 22 chosen hypothesis 1
+test 23 chosen hypothesis 1
+test 24 chosen hypothesis 1
+test 25 chosen hypothesis 0
+test 26 chosen hypothesis 1
+test 27 chosen hypothesis 1
+test 28 chosen hypothesis 0
+test 29 chosen hypothesis 1
+test 30 chosen hypothesis 1
+test 31 chosen hypothesis 1
+test 32 chosen hypothesis 0
+test 33 chosen hypothesis 1
+test 34 chosen hypothesis 0
+test 35 chosen hypothesis 1
+test 36 chosen hypothesis 0
+test 37 chosen hypothesis 1
+test 38 chosen hypothesis 0
+test 39 chosen hypothesis 1
+test 40 chosen hypothesis 1
+test 41 chosen hypothesis 1
+test 42 chosen hypothesis 1
+test 43 chosen hypothesis 1
+test 44 chosen hypothesis 0
+test 45 chosen hypothesis 0
+test 46 chosen hypothesis 1
+test 47 chosen hypothesis 1
+test 48 chosen hypothesis 0
+test 49 chosen hypothesis 1
+[0.78 0.82 0.8  0.68 0.  ]
+ground truth: P!=Q
+successful reject accuracy (accept h1 rate)= 0.68
+test 0 chosen hypothesis 1
+test 1 chosen hypothesis 0
+test 2 chosen hypothesis 1
+test 3 chosen hypothesis 1
+test 4 chosen hypothesis 1
+test 5 chosen hypothesis 1
+test 6 chosen hypothesis 1
+test 7 chosen hypothesis 1
+test 8 chosen hypothesis 1
+test 9 chosen hypothesis 0
+test 10 chosen hypothesis 1
+test 11 chosen hypothesis 0
+test 12 chosen hypothesis 1
+test 13 chosen hypothesis 1
+test 14 chosen hypothesis 0
+test 15 chosen hypothesis 1
+test 16 chosen hypothesis 1
+test 17 chosen hypothesis 1
+test 18 chosen hypothesis 1
+test 19 chosen hypothesis 1
+test 20 chosen hypothesis 0
+test 21 chosen hypothesis 0
+test 22 chosen hypothesis 1
+test 23 chosen hypothesis 1
+test 24 chosen hypothesis 1
+test 25 chosen hypothesis 1
+test 26 chosen hypothesis 1
+test 27 chosen hypothesis 0
+test 28 chosen hypothesis 1
+test 29 chosen hypothesis 0
+test 30 chosen hypothesis 0
+test 31 chosen hypothesis 0
+test 32 chosen hypothesis 1
+test 33 chosen hypothesis 1
+test 34 chosen hypothesis 1
+test 35 chosen hypothesis 1
+test 36 chosen hypothesis 1
+test 37 chosen hypothesis 1
+test 38 chosen hypothesis 0
+test 39 chosen hypothesis 1
+test 40 chosen hypothesis 0
+test 41 chosen hypothesis 1
+test 42 chosen hypothesis 1
+test 43 chosen hypothesis 1
+test 44 chosen hypothesis 0
+test 45 chosen hypothesis 1
+test 46 chosen hypothesis 0
+test 47 chosen hypothesis 1
+test 48 chosen hypothesis 1
+test 49 chosen hypothesis 1
+[0.78 0.82 0.8  0.68 0.72]
+ground truth: P!=Q
+successful reject accuracy (accept h1 rate)= 0.72

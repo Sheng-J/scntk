@@ -1,0 +1,1 @@
+python main.py --n_samples 1000 --batch_size 100 --widths 100 100 100 100 --g_activs  cos relu relu relu --bandwidths 1.5 None None None --init_stdvs None 1 1 1 --filter_sizes 3 3 3 3 --poolings st3 st3 st3 st3

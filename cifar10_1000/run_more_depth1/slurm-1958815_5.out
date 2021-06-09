@@ -1,0 +1,50 @@
+Arguments:  Namespace(S_P_data='CIFAR10', S_Q_data='CIFAR10_1', bandwidths=[1.0, None, None, None], batch_size=100, exp_type='accuracy', filter_sizes=[3, 3, 2, 2], g_activs=['cos', 'relu', 'relu', 'relu'], init_stdvs=[None, 1.0, 1.0, 1.0], kernel_type='ntk', method='fixed_ntk', n_permutes=100, n_samples=1000, n_seeds=2, n_tests=20, poolings=['st2', 'st2', 'st2', 'st2'], run_id=0, save_dir="/scratch/hdd001/home/sheng/scntk_icml/MNIST_jan_30th/S_P_CIFAR10/S_Q_CIFAR10_1/n2/n_tests20/n_permutes100/n_samples1000/widths[300, 300, 300, 300]/g_activs['cos', 'relu', 'relu', 'relu']/bandwidths[1.0, None, None, None]/init_stdvs[None, 1.0, 1.0, 1.0]/filter_sizes[3, 3, 2, 2]/poolings['st2', 'st2', 'st2', 'st2']/kernel_type_ntk/run_id0", top_dir='/scratch/hdd001/home/sheng/scntk_icml', use_components=None, widths=[300, 300, 300, 300], writer_record=0)
+Files already downloaded and verified
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:50<16:01, 50.60s/it] 10%|█         | 2/20 [01:22<13:31, 45.06s/it] 15%|█▌        | 3/20 [01:55<11:44, 41.45s/it] 20%|██        | 4/20 [02:27<10:18, 38.68s/it] 25%|██▌       | 5/20 [03:00<09:10, 36.73s/it] 30%|███       | 6/20 [03:32<08:15, 35.40s/it] 35%|███▌      | 7/20 [04:04<07:27, 34.41s/it] 40%|████      | 8/20 [04:37<06:46, 33.89s/it] 45%|████▌     | 9/20 [05:09<06:08, 33.47s/it] 50%|█████     | 10/20 [05:41<05:31, 33.11s/it] 55%|█████▌    | 11/20 [06:14<04:55, 32.80s/it] 60%|██████    | 12/20 [06:46<04:22, 32.80s/it] 65%|██████▌   | 13/20 [07:19<03:48, 32.69s/it] 70%|███████   | 14/20 [07:51<03:15, 32.55s/it] 75%|███████▌  | 15/20 [08:24<02:42, 32.56s/it] 80%|████████  | 16/20 [08:56<02:09, 32.46s/it] 85%|████████▌ | 17/20 [09:28<01:36, 32.32s/it] 90%|█████████ | 18/20 [10:00<01:04, 32.36s/it] 95%|█████████▌| 19/20 [10:33<00:32, 32.47s/it]100%|██████████| 20/20 [11:06<00:00, 32.72s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:33<10:27, 33.04s/it] 10%|█         | 2/20 [01:07<10:02, 33.49s/it] 15%|█▌        | 3/20 [01:39<09:21, 33.05s/it] 20%|██        | 4/20 [02:13<08:54, 33.39s/it] 25%|██▌       | 5/20 [02:48<08:28, 33.90s/it] 30%|███       | 6/20 [03:24<07:59, 34.28s/it] 35%|███▌      | 7/20 [03:57<07:20, 33.88s/it] 40%|████      | 8/20 [04:30<06:45, 33.78s/it] 45%|████▌     | 9/20 [05:03<06:07, 33.39s/it] 50%|█████     | 10/20 [05:35<05:31, 33.19s/it] 55%|█████▌    | 11/20 [06:09<04:59, 33.27s/it] 60%|██████    | 12/20 [06:41<04:24, 33.06s/it] 65%|██████▌   | 13/20 [07:17<03:56, 33.75s/it] 70%|███████   | 14/20 [07:50<03:21, 33.54s/it] 75%|███████▌  | 15/20 [08:24<02:48, 33.66s/it] 80%|████████  | 16/20 [08:59<02:16, 34.15s/it] 85%|████████▌ | 17/20 [09:31<01:40, 33.63s/it] 90%|█████████ | 18/20 [10:04<01:06, 33.25s/it] 95%|█████████▌| 19/20 [10:36<00:32, 32.84s/it]100%|██████████| 20/20 [11:08<00:00, 32.83s/it]
+test 0 chosen hypothesis 0
+test 1 chosen hypothesis 0
+test 2 chosen hypothesis 0
+test 3 chosen hypothesis 0
+test 4 chosen hypothesis 0
+test 5 chosen hypothesis 0
+test 6 chosen hypothesis 0
+test 7 chosen hypothesis 0
+test 8 chosen hypothesis 0
+test 9 chosen hypothesis 0
+test 10 chosen hypothesis 0
+test 11 chosen hypothesis 0
+test 12 chosen hypothesis 0
+test 13 chosen hypothesis 0
+test 14 chosen hypothesis 0
+test 15 chosen hypothesis 0
+test 16 chosen hypothesis 0
+test 17 chosen hypothesis 0
+test 18 chosen hypothesis 0
+test 19 chosen hypothesis 0
+[0. 0.]
+ground truth: P!=Q
+successful reject accuracy (accept h1 rate)= 0.0
+test 0 chosen hypothesis 0
+test 1 chosen hypothesis 0
+test 2 chosen hypothesis 0
+test 3 chosen hypothesis 0
+test 4 chosen hypothesis 1
+test 5 chosen hypothesis 1
+test 6 chosen hypothesis 0
+test 7 chosen hypothesis 0
+test 8 chosen hypothesis 0
+test 9 chosen hypothesis 0
+test 10 chosen hypothesis 0
+test 11 chosen hypothesis 0
+test 12 chosen hypothesis 1
+test 13 chosen hypothesis 0
+test 14 chosen hypothesis 0
+test 15 chosen hypothesis 1
+test 16 chosen hypothesis 0
+test 17 chosen hypothesis 0
+test 18 chosen hypothesis 0
+test 19 chosen hypothesis 0
+[0.  0.2]
+ground truth: P!=Q
+successful reject accuracy (accept h1 rate)= 0.2

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "main.py", line 266, in <module>
+    os.makedirs(save_dir)
+  File "/h/sheng/.conda/envs/CENV/lib/python3.7/os.py", line 221, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: "/scratch/hdd001/home/sheng/scntk_icml/MNIST_jan_30th/S_P_CIFAR10/S_Q_CIFAR10_1/n2/n_tests20/n_permutes100/n_samples1000/widths[300, 300, 300, 300]/g_activs['cos', 'relu', 'relu', 'relu']/bandwidths[1.0, None, None, None]/init_stdvs[None, 1.0, 1.0, 1.0]/filter_sizes[4, 4, 4, 4]/poolings['st1', 'st1', 'st2', 'st2']/kernel_type_ntk/run_id0"
